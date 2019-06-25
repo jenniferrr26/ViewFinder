@@ -48,7 +48,7 @@
         <!--Title-->
         <scene sceneID="yxu-jk-RQv">
             <objects>
-                <viewController id="0Ef-ta-EOQ" sceneMemberID="viewController">
+                <viewController id="0Ef-ta-EOQ" customClass="NewPhotoViewController" customModule="ViewFInder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Boo-pZ-Drm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -84,6 +84,9 @@
                         <viewLayoutGuide key="safeArea" id="qSR-9f-bZA"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="lj3-U8-TjD"/>
+                    <connections>
+                        <outlet property="imagePlace" destination="oxU-FG-aaX" id="ZyV-V2-zD9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g7c-s0-Ifz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

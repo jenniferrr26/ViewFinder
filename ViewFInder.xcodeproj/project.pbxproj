@@ -14,6 +14,8 @@
 		18F23AC522C25EAF008A2B40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F23AC322C25EAF008A2B40 /* LaunchScreen.storyboard */; };
 		18F23AD022C25EB0008A2B40 /* ViewFInderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F23ACF22C25EB0008A2B40 /* ViewFInderTests.swift */; };
 		18F23ADB22C25EB0008A2B40 /* ViewFInderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F23ADA22C25EB0008A2B40 /* ViewFInderUITests.swift */; };
+		18F23AEB22C269D0008A2B40 /* NewPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F23AEA22C269D0008A2B40 /* NewPhotoViewController.swift */; };
+		18F23AEF22C2A268008A2B40 /* Screen Shot 2019-06-25 at 2.19.51 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F23AEE22C2A268008A2B40 /* Screen Shot 2019-06-25 at 2.19.51 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		18F23AD622C25EB0008A2B40 /* ViewFInderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewFInderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F23ADA22C25EB0008A2B40 /* ViewFInderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFInderUITests.swift; sourceTree = "<group>"; };
 		18F23ADC22C25EB0008A2B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F23AEA22C269D0008A2B40 /* NewPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewPhotoViewController.swift; path = ../../NewPhotoViewController.swift; sourceTree = "<group>"; };
+		18F23AEE22C2A268008A2B40 /* Screen Shot 2019-06-25 at 2.19.51 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2019-06-25 at 2.19.51 PM.png"; path = "../../Screen Shot 2019-06-25 at 2.19.51 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 			children = (
 				18F23AB722C25EAD008A2B40 /* AppDelegate.swift */,
 				18F23ABB22C25EAD008A2B40 /* Main.storyboard */,
+				18F23AEA22C269D0008A2B40 /* NewPhotoViewController.swift */,
 				18F23AC122C25EAF008A2B40 /* Assets.xcassets */,
 				18F23AC322C25EAF008A2B40 /* LaunchScreen.storyboard */,
 				18F23AC622C25EAF008A2B40 /* Info.plist */,
 				18F23ABE22C25EAD008A2B40 /* ViewFInder.xcdatamodeld */,
+				18F23AEE22C2A268008A2B40 /* Screen Shot 2019-06-25 at 2.19.51 PM.png */,
 			);
 			path = ViewFInder;
 			sourceTree = "<group>";
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F23AEF22C2A268008A2B40 /* Screen Shot 2019-06-25 at 2.19.51 PM.png in Resources */,
 				18F23AC522C25EAF008A2B40 /* LaunchScreen.storyboard in Resources */,
 				18F23AC222C25EAF008A2B40 /* Assets.xcassets in Resources */,
 				18F23ABD22C25EAD008A2B40 /* Main.storyboard in Resources */,
@@ -257,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F23AB822C25EAD008A2B40 /* AppDelegate.swift in Sources */,
+				18F23AEB22C269D0008A2B40 /* NewPhotoViewController.swift in Sources */,
 				18F23AC022C25EAD008A2B40 /* ViewFInder.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
